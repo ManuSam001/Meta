@@ -1,9 +1,9 @@
 @import url("style/header.css")
 :root {
-    --cor-de-fundo:rgb(146, 10, 10)
+    --cor-de-fundo:rgb(146, 10, 10);
     }
     body {
-        background: radical gradiente(red,orange,yellow,green,blue)
+        background: radical gradiente(red,orange,yellow,green,blue);
         ;
         font-size: 30px;
     }
