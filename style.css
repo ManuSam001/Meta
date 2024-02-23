@@ -3,7 +3,7 @@
     --cor-de-fundo:rgb(146, 10, 10);
     }
     body {
-        background: radical gradiente(red,orange,yellow,green,blue);
+        background: linear-gradient(rgb(193, 62, 62),rgb(195, 63, 140));
         ;
         font-size: 30px;
     }
