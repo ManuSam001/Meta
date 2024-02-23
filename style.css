@@ -3,7 +3,7 @@
     --cor-de-fundo:rgb(146, 10, 10);
     }
     body {
-        background: linear-gradientred rgb(195, 50, 50)  rgb(244, 69, 98);
+        background: linear-gradientred rgb(195, 50, 50), rgb(244, 69, 98);
         ;
         font-size: 30px;
     }
