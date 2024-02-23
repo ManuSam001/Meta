@@ -1,1 +1,3 @@
-@import url("style/header.css")
+body{
+    background: linear-gradient(red,yellow);
+}
