@@ -9,7 +9,7 @@ for(let i=0; i <  botões.length; i++){
 
 botoes[i].onclick = function(){
     
-    botoes[i].classList.add(“ativo”);
+    botoes[i].classList.add("ativo");
 }
 
 for(let j=0;j<botoes.length;j++){
