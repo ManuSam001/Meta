@@ -13,4 +13,8 @@ for(let i=0; i <botoes.length; i++){
         
     }
 }
+const contadores = document.querySelectorAll(".contador");
+const tempo0objetivo1 = new Date("2024-04-01T00:00:00");
+let tempoAtual = new Date();
+ contadores[0].textContent = tempo0objetivo1 - tempoAtual;
     
