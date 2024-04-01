@@ -17,5 +17,9 @@ for(let i=0; i <botoes.length; i++){
 const contadores = document.querySelectorAll(".contador");
 const tempo0objetivo1 = new Date("2024-12-21T00:00:00");
 let tempoAtual = new Date();
- contadores[0].textContent = tempo0objetivo1 - tempoAtual;
+ contadores[0].textContent = calculaTempo(tempo0objetivo1);
     
+let segundos = tempo0objetivo1 - tempoAtual;
+let minutos = segundos/60;
+let horas = minutos/60;
+let dias = horas/24;
