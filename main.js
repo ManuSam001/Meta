@@ -53,6 +53,6 @@ function atualizaCronometro(){
 
 function comecaCronometro(){
     atualizaCronometro(); //chamada da função criada anteriormente dentro desta função
-    setInterval(atualizaCronometro, 1000); funçaõ que faz a contagem do tempoObjetivo1.
+    setInterval(atualizaCronometro, 1000); //funçaõ que faz a contagem do tempoObjetivo1.
 }
-comecaCronometro(); //chamada da funçao
+//comecaCronometro(); //chamada da funçao
