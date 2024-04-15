@@ -52,7 +52,7 @@ function atualizaCronometro(){
 //cria uma função que usa a função atualizaCronometro com o método SetInterval para atualizar a cada 1s o contador regressivo
 
 function comecaCronometro(){
-    atualizaCronometro();
-    setInterval(atualizaCronometro, 1000);
+    atualizaCronometro(); //chamada da função criada anteriormente dentro desta função
+    setInterval(atualizaCronometro, 1000); funçaõ que faz a contagem do tempoObjetivo1.
 }
-comecaCronometro();
+comecaCronometro(); //chamada da funçao
