@@ -47,7 +47,7 @@ function calculaTempo(tempoObjetivo) {
 
 function atualizaCronometro(){
     for (let i = 0; i < contadores.length; i++){
-        contadores[i].textContent = calculaTempo(tempos[i]);
+       // contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
 //cria uma função que usa a função atualizaCronometro com o método SetInterval para atualizar a cada 1s o contador regressivo
