@@ -35,17 +35,22 @@ function calculaTempo(tempoObjetivo) {
     horas %= 24;    //obtem o resto da divisão das horas
 //cria um laço de repetição para definir uma msg para o tempo se ele já acabou.
 
-        if (tempoFinal > 0){
-            return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-        }else{
-            return " PRAZO ENCERRADO!!! "
-        }
+if (tempoFinal > 0){
+    return [dias,horas,minutos,segundos];
+} else {
+    return [0,0,0,0];
 }
+
 //cria uma função com laço 
 
  //para interagir com todos os objetivos
 
 function atualizaCronometro(){
+    document.getElementById("dias0").calculaTempo(tempos[0])[0];
+    document.getElementById("horas0").textContent = calculaTempo(tempos[0])[1];
+    document.getElementById("min0").textContent = calculaTempo(tempos[0])[2];
+    document.getElementById("seg0").textContent = calculaTempo(tempos[0])[3];
+
     for (let i = 0; i < contadores.length; i++){
        // contadores[i].textContent = calculaTempo(tempos[i]);
     }
